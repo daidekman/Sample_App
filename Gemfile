@@ -31,8 +31,7 @@ group :test do
   gem 'factory_girl_rails', '1.0'
 end
 
-gem "pg', :group :production
-
+gem 'pg', :group => :production
 
 gem 'jquery-rails'
 
